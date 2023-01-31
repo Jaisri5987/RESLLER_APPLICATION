@@ -1,0 +1,36 @@
+#history_page{
+    position:absolute;
+    top:150px;
+    left:25%;
+    border:2px solid black;
+    background-color:beige;
+    width: 925px;
+    height: 1925px;
+    box-shadow: 5px 5px rgb(142, 140, 140);
+    border-radius: 15px;
+          
+  
+}
+.dropdown{
+    position: absolute;
+    right:10%;
+    top:600px;
+
+}
+.his_pag{
+    position:absolute;
+    top:150px; 
+    border:2px solid black;
+   background-color:rgb(213, 250, 250);
+    width:1425px;
+    height:4000px;
+
+}
+.data{
+    position:absolute;
+    top:40%;
+    font-size: 15px;
+    font-family:'Apple Chancery';
+    font-weight: bolder;
+
+}

@@ -1,0 +1,290 @@
+.Header
+{
+    position: fixed;
+    top: 0;
+    border:1px solid black;
+    width:100%;
+    height: 80px;
+    background-color:#54BAB9;
+    border-radius: 15px;
+    box-shadow: 0 9px  #999;
+   
+}
+.name{
+    font-family:'Apple Chancery';
+    position:absolute;
+    right:580px;
+    font-size: 30px;
+}
+.img
+{
+    position:absolute;
+    left:15px;
+    
+}
+.login
+{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:30px;
+    right:350px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color:#E9DAc1;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 9px  #999;
+
+}
+.login:hover
+{
+    font-style: italic;
+    color: red;
+
+}
+.sell
+{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:30px;
+    right:210px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color:#E9DAc1;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 9px  #999;
+}
+.sell:hover
+{
+    font-style: italic;
+    color: red;
+
+}
+.history
+{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:30px;
+    right:70px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color:#E9DAc1;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 9px  #999;
+}
+.history:hover
+{
+    font-style: italic;
+    color: red;
+
+}
+.category{
+position:fixed;
+width:1425px;
+height:50px;
+top:95px;
+border:1px solid black;
+background-color:rgb(202, 243, 243);
+border-radius: 15px;
+}
+@media screen and (max-width:783px) {
+    #category{
+      position: relative;
+      left: 13%;
+      width: 400px;
+      margin-bottom: 10px;
+      transform: translateX(-50%);
+      bottom: -5px;
+      border-radius: 5px;
+  
+    }
+  }
+.Phone{ 
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:5px;
+    left:100px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color: #54bab9 ;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 5px  #999;
+    font-weight: bolder;
+
+
+}
+.Phone:hover
+{
+    background-color:azure;
+}
+.phone-sub-category{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:5px;
+    left:180px;
+    border:1px solid black;
+    width:100px;
+    height:38px;
+    background-color:#E9DAc1;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 0 4px  #999;
+    font-weight: bolder;
+
+}
+.Laptop{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:5px;
+    left:350px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color: #54bab9;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 5px  #999;
+    font-weight: bolder;
+
+}
+.Laptop:hover{
+    background-color:azure;
+
+}
+.Laptop-sub-category{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:5px;
+    left:435px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color:#E9DAc1;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 0 5px  #999;
+    font-weight: bolder;
+
+   
+
+}
+.cars{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:5px;
+    left:610px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color:#54BAB9;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 5px  #999;
+    font-weight: bolder;
+
+
+}
+.cars:hover{
+    background-color:azure;
+
+}
+.car-sub-category{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:5px;
+    left:690px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color:#E9DAc1;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 0 5px  #999; 
+    font-weight: bolder;
+  
+
+}
+.RentalHouses
+{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:5px;
+    left:870px;
+    border:1px solid black;
+    width:150px;
+    height:35px;
+    background-color:#54BAB9;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 9px  #999;
+    font-weight: bolder;
+
+
+}
+.RentalHouses:hover{
+    background-color:azure;
+
+}
+.Rental-sub-category{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:5px;
+    left:1005px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color:#E9DAc1;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 0 9px  #999;
+    font-weight: bolder;
+
+   
+
+}
+
+.PG-sub-category{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:5px;
+    left:1270px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color:#E9DAc1;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 0 9px  #999;
+    font-weight: bolder;
+
+   
+
+}
+.PG{
+    font-family:'Apple Chancery';
+    position:absolute;
+    top:5px;
+    left:1190px;
+    border:1px solid black;
+    width:100px;
+    height:35px;
+    background-color:#54BAB9;
+    border-radius: 10px;
+    font-size: 20px;
+   box-shadow: 0 9px  #999;
+   font-weight: bolder;
+
+
+}
+.PG:hover{
+    background-color:azure;
+
+}
+

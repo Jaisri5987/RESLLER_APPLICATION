@@ -1,19 +1,40 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <router-view/>
+    <!-- <HeaderComponent/> -->
+    <!-- <HomePageComponent/> -->
+    <!-- <LoginPageComponent/> -->
+  <HeaderComponent/>
+  
+
+
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+//  import {mapGetters} from "vuex";
+//  import HomePageComponent from "./components/HomePageComponent.vue";
+//  import vuex from "Vuex"
+// import LoginPageComponent from './components/LoginPageComponent.vue';
+import HeaderComponent from "./components/HeaderComponent.vue";
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // HomePageComponent,
+    // LoginPageComponent,
+    HeaderComponent
+    
+},
+
+  // computed:{
+  //   ...mapGetters('UserStore',['user'])
+  // }
 }
+
+
 </script>
 
 <style>

@@ -1,0 +1,138 @@
+.back-butt{
+    position: absolute;
+    left: 95%;
+    top: 50px;
+}
+.ad{
+    position:absolute;
+    top:150px; 
+    background-color:azure;
+    text-align:center;
+    width:1425px;
+    height: 1200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.post{
+    font-family:'Apple Chancery';
+    font-size: 50px;
+
+}
+.form
+{
+    position:absolute;
+    top:165px; 
+    left:15%;
+    background-color:rgb(244, 244, 231);
+    text-align:center;
+    width:1000px;
+    height:800px;
+    border:2px solid black;
+    border-radius: 40px;
+    box-shadow: 0 9px  #999;
+    z-index: 500px;
+
+}
+.input{
+    position:absolute;
+    left:20%;
+    font-family:'Apple Chancery';
+    font-size: 20px;
+    font-weight: bolder;
+    
+
+
+}
+.title{
+    position:absolute;
+    left:40%;
+    font-family:'Apple Chancery';
+    border-radius: 10px;
+    font-family:'Apple Chancery';
+   box-shadow: 0 9px  #999;
+   
+
+}
+.button1 {
+    font-family:'Apple Chancery';
+      appearance: none;
+      width:150px;
+      height:50px;
+      position:absolute;
+      left:20%;
+      top:92%;
+      background-color:rgb(88, 195, 160);
+      border-radius: 40em;
+      border-style: none;
+      box-shadow: #ADCFFF 0 12px 6px inset;
+      box-sizing: border-box;
+      color: #000000;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: -.24px;
+      margin: 0;
+      outline: none;
+      padding: 1rem 1.3rem;
+      quotes: auto;
+      text-align: center;
+      text-decoration: none;
+      transition: all .15s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+     
+    }
+    
+    .button1:hover {
+      background-color: #FFC229;
+      box-shadow: #FF6314 0 -6px 8px inset;
+      transform: scale(1.125);
+    }
+    
+    .button1:active {
+      transform: scale(1.025);
+    }
+    .button2 {
+        font-family:'Apple Chancery';
+          appearance: none;
+          width:150px;
+          height:50px;
+          position:absolute;
+          left:60%;
+          top:92%;
+          background-color:rgb(88, 195, 160);
+          border-radius: 40em;
+          border-style: none;
+          box-shadow: #ADCFFF 0 12px 6px inset;
+          box-sizing: border-box;
+          color: #000000;
+          cursor: pointer;
+          display: inline-block;
+          font-size: 1.2rem;
+          font-weight: 700;
+          letter-spacing: -.24px;
+          margin: 0;
+          outline: none;
+          padding: 1rem 1.3rem;
+          quotes: auto;
+          text-align: center;
+          text-decoration: none;
+          transition: all .15s;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+         
+        }
+        
+        .button2:hover {
+          background-color: #FFC229;
+          box-shadow: #FF6314 0 -6px 8px inset;
+          transform: scale(1.125);
+        }
+        
+        .button2:active {
+          transform: scale(1.025);
+        }

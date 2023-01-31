@@ -1,0 +1,14 @@
+#product{
+    position:absolute;
+    top:150px; 
+    background-color:rgb(245, 245, 234);
+    text-align:center;
+    width:100%;
+    height: 100vh;
+    border:2px solid black;
+    font-family:'Apple Chancery';
+
+}
+.head{
+    color:blue
+}
